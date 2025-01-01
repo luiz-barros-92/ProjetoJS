@@ -12,3 +12,9 @@ function calculateTime() {
 
     document.getElementById('output').innerHTML = `Sua exercise weapon tem <b>${horas}</b> h e <b>${minutos}</b> min.`;
 }
+
+function clearFields() {
+    document.getElementById('n').value = '';
+    document.getElementById('n').focus();
+    document.getElementById('output').innerText = '';
+  }
