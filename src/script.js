@@ -12,7 +12,7 @@ function calculateTime() {
     const horas = Math.floor(mintot / 60);
     const minutos = Math.floor(mintot % 60);
 
-    document.getElementById('output').innerHTML = `Sua exercise weapon tem <b>${horas}</b> h e <b>${minutos}</b> min.`;
+    document.getElementById('output').innerHTML = `Sua Exercise Weapon tem <b>${horas}</b> h e <b>${minutos}</b> min`;
 
 }
 
