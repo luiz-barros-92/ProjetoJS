@@ -13,7 +13,7 @@ function calculateTime() {
     const minutos = Math.floor(mintot % 60);
 
     document.getElementById('output').innerHTML = `Sua Exercise Weapon tem <b>${horas}</b> h e <b>${minutos}</b> min`;
-
+    output.classList.remove("hidden");
 }
 
 function clearFields() {    
@@ -21,5 +21,6 @@ function clearFields() {
     document.getElementById('n').value = '';
     document.getElementById('n').focus();
     document.getElementById('output').innerText = '';
+    output.classList.add("hidden");
     
   }
