@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #333;
-    color: #fff;
-  }
+    background-color: #272727;
+    color: #fff; }
   
   .container {
     width: 80%;
@@ -14,19 +13,16 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
+    align-items: center; }
   
   h1 {
     text-align: center;
-    margin-bottom: 20px;
-  }
+    margin-bottom: 20px; }
   
   label {
     display: block;
     margin-bottom: 10px;
-    text-align: center;
-  }
+    text-align: center; }
   
   input[type="number"] {
     width: 60%;
@@ -38,14 +34,12 @@ body {
     border-radius: 5px;
     background-color: #555;
     color: #fff;
-    box-sizing: border-box;
-  }
+    box-sizing: border-box; }
 
   .button-container {
     display: flex;
     justify-content: space-between;
-    width: 60%;
-  }
+    width: 60%; }
   
   button {
     width: 45%;
@@ -58,21 +52,33 @@ body {
     background-color: #666;
     color: #fff;
     cursor: pointer;
-    display: inline-block;
-  }
+    display: inline-block; }
   
   button:hover {
-    background-color: #777;
-  }
+    background-color: #777; }
   
   pre#output {
     background-color: #555;
     padding: 10px;
     border-radius: 5px;
     color: #fff;
-    text-align: center;
-  }
+    text-align: center; }
 
   .hidden {
-    display: none;
-  }
+    display: none; }
+
+  footer {
+    background-color: #272727;
+    color: #ddd;
+    padding: 10px;
+    clear: both;
+    margin-top: auto; }
+
+footer p {
+    text-align: center; }
+
+#rodape {
+    font-size: 13px; }
+  
+#rodape a {
+    color: #ddd; }

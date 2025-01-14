@@ -21,6 +21,9 @@ function clearFields() {
     document.getElementById('n').value = '';
     document.getElementById('n').focus();
     document.getElementById('output').innerText = '';
-    output.classList.add("hidden");
-    
+    output.classList.add("hidden");    
   }
+
+window.onload = function() {
+    document.getElementById("ano").innerHTML = new Date().getFullYear();
+   }
