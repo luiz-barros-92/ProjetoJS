@@ -21,8 +21,15 @@ function clearFields() {
     document.getElementById('n').value = '';
     document.getElementById('n').focus();
     document.getElementById('output').innerText = '';
-    output.classList.add("hidden");    
-  }
+    output.classList.add("hidden");
+
+}
+
+document.addEventListener('keydown', function(event) {
+    if (event.keyCode === 27) { 
+      clearFields();
+    }
+  });
 
 window.onload = function() {
     document.getElementById("ano").innerHTML = new Date().getFullYear();
