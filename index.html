@@ -12,13 +12,13 @@
     <h2>Calcule o tempo da sua Exercise Weapon</h2>
 
     <label for="n">Número de cargas na sua Exercise Weapon:</label>
-
+    
     <input type="number" id="n" name="n" onkeydown="if(event.keyCode==13) calculateTime()" autofocus><br><br>
 
     <div class="button-container">
-    <button onclick="calculateTime()">Calcular [Enter]</button>
+    <button onclick="calculateTime()">Calcular <small>[Enter]</small></button>
 
-    <button onclick="clearFields()">Limpar [Esc]</button>
+    <button onclick="clearFields()">Limpar <small>[Esc]</small></button>
     </div>
     
     <pre id="output" class="hidden"></pre>
