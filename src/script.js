@@ -3,7 +3,7 @@ function calculateTime() {
     const n = parseInt(document.getElementById('n').value);
 
     if (isNaN(n) || n < 0) {
-        document.getElementById('output').textContent = 'Por favor, insira um número válido de cargas.';
+        alert("Por favor, insira um número válido de cargas.");
         return;
     }
 
