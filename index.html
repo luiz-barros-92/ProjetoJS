@@ -3,26 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise Weapon Calculator</title>
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+    <title>Exercise Weapon Calculator</title>    
     <link rel="stylesheet" href="src/style.css" />
 </head>
 <body>
+    <header>  
+        <img src="src/img/calc.png" alt="calculadora"> &emsp;<h2>Exercise Weapon Calculator</h2>  
+    </header>    
     <div class="container">
-
-    <h2>Calcule o tempo da sua Exercise Weapon</h2>
-
-    <label for="n">Número de cargas na sua Exercise Weapon:</label>
-    
-    <input type="number" id="n" name="n" onkeydown="if(event.keyCode==13) calculateTime()" autofocus><br><br>
-
-    <div class="button-container">
-    <button onclick="calculateTime()">Calcular <small>[Enter]</small></button>
-
-    <button onclick="clearFields()">Limpar <small>[Esc]</small></button>
-    </div>
-    
-    <pre id="output" class="hidden"></pre>
-
+        <input type="number" id="n" name="n" placeholder="Número de cargas" onkeydown="if(event.keyCode==13) calculateTime()" autofocus><br><br>
+        <div class="button-container">
+            <button onclick="calculateTime()">Calcular <small>[Enter]</small></button>
+            <button onclick="clearFields()">Limpar <small>[Esc]</small></button>
+        </div>    
+        <pre id="output" class="hidden"></pre>
     </div>
     <footer>
         <p id="rodape"><span id="ano"></span> LuizBarros &emsp;<a href="https://github.com/luiz-barros-92" target="_blank" rel="external">GitHub</a>&emsp;<a href="https://www.linkedin.com/in/luiz-barros-2ba4b7342" target="_blank" rel="external">LinkedIn</a></p>
