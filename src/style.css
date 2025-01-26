@@ -17,12 +17,9 @@ body {
   flex-direction: column;
   align-items: center; }
 
-@media (max-width: 480px) {
-  .container {
-    width: 50%; }
+@media (max-width: 480px) {  
   pre#output {
-    font-size: 12px !important; }
-}
+    font-size: 12px !important; }}
 
 header {
   position: fixed;
@@ -107,6 +104,6 @@ footer p {
 
 #rodape {
     font-size: 15px; }
-  
+
 #rodape a {
     color: #000000; }
