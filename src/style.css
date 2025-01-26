@@ -17,6 +17,13 @@ body {
   flex-direction: column;
   align-items: center; }
 
+@media (max-width: 480px) {
+  .container {
+    width: 50%; }
+  pre#output {
+    font-size: 12px !important; }
+}
+
 header {
   position: fixed;
   top: 0;
