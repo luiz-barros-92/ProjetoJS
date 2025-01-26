@@ -19,8 +19,13 @@ body {
 
 @media (max-width: 480px) {  
   pre#output {
-    font-size: 12px !important; }}
-
+    font-size: 12px !important; }
+  .button-container {
+    width: 100%; }
+  button {
+    width: 100%;
+    margin-bottom: 10px; }}
+  
 header {
   position: fixed;
   top: 0;
