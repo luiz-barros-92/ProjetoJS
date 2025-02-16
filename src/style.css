@@ -3,12 +3,11 @@ body {
     background-color: #c5c5c5;
     color: #000000; }
   
-.container {
-  height: 160px;
+.container {  
   width: 80%;
   max-width: 400px;
   margin: 40px auto;
-  margin-top: 120px;
+  margin-top: 120px;  
   background-color: #c5c5c5;
   padding: 2rem;
   border-radius: 10px;
@@ -24,9 +23,7 @@ body {
     width: 100%; }
   button {
     width: 100%;
-    margin-bottom: 10px; }
-  .container {
-    height: 200px; }}
+    margin-bottom: 10px; }}  
   
 header {
   position: fixed;
